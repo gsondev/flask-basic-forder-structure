@@ -1,0 +1,16 @@
+# Agregar todos los elemento y carpetas que no se quieren subir al repositorio
+# en el archivo .gitignore, este es un proyecto en Flask, por lo que se ignoran
+
+.vscode/
+__pycache__/
+*.pyc
+
+venv/
+
+.env
+
+migrations/
+
+.pytest_cache/
+
+*.py[cod]
